@@ -1,0 +1,32 @@
+[
+  {
+    "name": "YumBit",
+    "img": "https://i.ibb.co.com/1tFxRmdn/project-1.png",
+    "tech": ["React", "Tailwind", "Firebase", "Express.js", "Node.js", "MongoDB"],
+    "description": "YumBit is a modern food delivery web app where users can browse restaurants, order meals, and track delivery status in real time.",
+    "live": "https://food-service-auth.web.app",
+    "github": "https://github.com/marium-fija/food-service-client",
+    "challenges": "Fetching APIs, added review functionality in My Review page, and updated reviews in a modal.",
+    "duration": "7 Days Only"
+  },
+  {
+    "name": "Think Green",
+    "img": "https://i.ibb.co.com/sdsyk5Fb/project-2.png",
+    "tech": ["Express.js", "Node.js", "MongoDB", "React.js", "Firebase"],
+    "description": "Think Green is an eco-awareness platform designed to promote sustainable living by sharing green tips, eco-projects, and community events.",
+    "live": "https://gardeners-auth.web.app",
+    "github": "https://github.com/marium-fija/assignment-10-client",
+    "challenges": "Implementing community post moderation and optimizing API performance for large datasets.",
+    "duration": "6 Days Only"
+  },
+  {
+    "name": "SoulKnot",
+    "img": "https://i.ibb.co.com/V07JFv68/Screenshot-2025-10-17-173943.png",
+    "tech": ["Express.js", "Node.js", "MongoDB", "React.js", "Firebase"],
+    "description": "SoulKnot is a matrimony platform that connects individuals seeking life partners. Users can create profiles, browse matches, and communicate securely.",
+    "live": "https://matrimony-platform-auth.web.app/",
+    "github": "https://github.com/marium-fija/Matrimony-platform-client",
+    "challenges": "Implementing secure user authentication, matching algorithm, efficient profile search, and Admin Dashboard.",
+    "duration": "6 Days Only"
+  }
+]
