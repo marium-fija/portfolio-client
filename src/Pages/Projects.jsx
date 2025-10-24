@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { Link } from 'react-router';
 
 const Projects = () => {
     const [projects, setProjects] = useState([]);
@@ -43,6 +44,8 @@ const Projects = () => {
               <strong className='text-[#36C2CE]'>Duration : </strong> {project.duration}
             </p>
             <div className="flex gap-4 mt-4">
+
+              <Link to={`/projects/${project.id}`} className='btn btn-bg  px-3 py-1 rounded-xl'>View More</Link>
               <a
                 href={project.live}
                 target="_blank"
@@ -51,14 +54,7 @@ const Projects = () => {
               >
                 Live Demo
               </a>
-              <a
-                href={project.github}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="btn-bg px-3 py-1 rounded-xl hover:bg-gray-900"
-              >
-                GitHub
-              </a>
+              
             </div>
           </div>
         ))}
