@@ -14,11 +14,11 @@ const About = () => {
         <div className="flex justify-center">
           <div className="relative group">
             <img
-              src="https://i.ibb.co.com/gLBVbKZz/fija.jpg"
+              src="https://i.ibb.co.com/TBhM0dQN/Gemini-Generated-Image-ouvcrlouvcrlouvc.png"
               alt="My portrait"
               className="w-64 h-64 md:w-80 md:h-80 object-cover rounded-3xl shadow-lg border-2 border-cyan-400 group-hover:scale-105 transition-transform duration-300"
             />
-            <div className="absolute inset-0 rounded-3xl bg-yellow-400/10 blur-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+            <div className="absolute inset-0 rounded-3xl border-2 border-cyan-400  opacity-0"></div>
           </div>
         </div>
 
